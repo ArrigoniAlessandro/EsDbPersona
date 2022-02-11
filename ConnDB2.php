@@ -4,7 +4,7 @@
         <form method = "POST">        
             <fieldset>
                 <legend>
-                    Inserimento dati nel DataBase [PERSONA]:
+                    Inserimento dati nel DataBase [Persona]:
                 </legend>
                 <p>CF: <input type="text" name="cf"></p>
                 <p>Nome: <input type="text" name="nome"></p>
@@ -37,7 +37,7 @@
 
         }else{ 
 
-            $sql = "INSERT INTO persona (cf, nome, cognome, eta)
+            $sql = "INSERT INTO Persona (cf, nome, cognome, eta)
             VALUES ('$cf', '$nome', '$cognome', '$eta')";
             
             if ($conn -> query($sql) === TRUE) {

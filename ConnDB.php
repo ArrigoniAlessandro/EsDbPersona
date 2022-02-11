@@ -50,7 +50,7 @@
             fwrite($file, $testo);
             fclose($file);
 
-            header("Location: http://127.0.0.1/ConnDB2.php");
+            header("Location: ConnDB2.php");
 
         }
     }
